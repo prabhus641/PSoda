@@ -1,0 +1,15 @@
+sodadata1_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: cl31586.central-india.azure
+      user: prabhus
+      password: Sastika@2023
+      role: accountadmin
+      database: dbt_db
+      warehouse: dbt_wh
+      schema: dbt_schema
+      threads: 10
+      client_session_keep_alive: False
+ 
